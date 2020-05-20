@@ -1,8 +1,7 @@
 class Solution {
     
     
-    //array of chars to get the char representation of number
-    
+    //array of chars to get the char representation of number   
     private char[] numm = {'0','1','2','3','4','5','6','7','8','9'};
     public boolean isValid(char[][]board, int row, int column, char insert){
          //iterate through the column
@@ -18,8 +17,7 @@ class Solution {
              }
          }
         
-        //now check for 3*3 grid
-        
+        //now check for 3*3 grid   
         int grid_x = row/3*3;
         int grid_y = column/3*3;
         int max_x = grid_x+3;
